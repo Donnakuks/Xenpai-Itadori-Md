@@ -804,7 +804,7 @@ axios@^1.3.3:
 
 "baileys@git+https://github.com/WhiskeySockets/Baileys.git#master":
   version "6.6.0"
-  resolved "git+https://github.com/WhiskeySockets/Baileys.git#daafc122759bd5b54279f82b196e1ce41aec4807"
+  resolved "git+https://github.com/WhiskeySockets/Baileys.git#1896ebe0ea524c617ad5a5dbdb2e7e1a6f18978a"
   dependencies:
     "@adiwajshing/keyed-db" "^0.2.4"
     "@hapi/boom" "^9.1.3"
