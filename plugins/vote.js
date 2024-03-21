@@ -1,5 +1,10 @@
 const { bot, newVote, participateInVote, sleep } = require('../lib/')
 
+bot({ on: 'text', fromMe: false, type: 'vote' }, async (message, match) => {
+  const msg = await participateInVote(message)
+  if (msg) return await message.send(msg.text, msg.option)
+})
+
 bot(
   {
     pattern: 'vote ?(.*)',
@@ -16,8 +21,3 @@ bot(
     }
   }
 )
-
-bot({ on: 'text', fromMe: false, type: 'vote' }, async (message, match) => {
-  const msg = await participateInVote(message)
-  if (msg) return await message.send(msg.text, msg.option)
-})
