@@ -2,7 +2,7 @@
 	deps = [
         pkgs.nodePackages.typescript-language-server
         pkgs.yarn
-        pkgs.ffmpeg
+        pkgs.arcanPackages.ffmpeg
         pkgs.libwebp
         pkgs.imagemagick
         pkgs.git
