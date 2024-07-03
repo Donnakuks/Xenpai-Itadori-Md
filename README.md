@@ -73,7 +73,7 @@ A simple WhatsApp User bot.
    ```sh
    git clone https://github.com/lyfe00011/whatsapp-bot-md botName
    cd botName
-   yarn install --network-concurrency 1
+   yarn install
    ```
 
 6. **Enter Environment Variables:**
