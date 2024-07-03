@@ -443,16 +443,16 @@
     defer-to-connect "^2.0.0"
 
 "@thi.ng/bitstream@^2.2.12":
-  version "2.2.61"
-  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.61.tgz#ad253cce5d82e371b75df24f5d1ba7d5c5a72d86"
-  integrity sha512-TOlPtUVvsEf+lRPoRiYjztTgDsuez3deUaDdXtZw4MRWXuPPtJY+sfJ0iOovnegNFMcSorA/3Km3/aNGcyrr2A==
+  version "2.2.62"
+  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.62.tgz#35007c067a4de432cb0526f9f79cbb8d2a15c080"
+  integrity sha512-JT755FJ4IpSS02DczXlp64hnVq4WjQVaJY75UdiXT4HZ6z86c3FQK9h27/lWlt16k9uSprXO4Ej8y1NJo1Xviw==
   dependencies:
-    "@thi.ng/errors" "^2.5.8"
+    "@thi.ng/errors" "^2.5.9"
 
-"@thi.ng/errors@^2.5.8":
-  version "2.5.8"
-  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.5.8.tgz#bfad7de863255750b647a0f4b5f26f1563b3fc84"
-  integrity sha512-e3aR4m2lMu5AMuKwwkoMzHNGJMZrob2lykAk8N2Hxo2bxjPpm2Ik9+tbcl4aTP+qMVvR7DPUimNJ9mlwC53l5A==
+"@thi.ng/errors@^2.5.9":
+  version "2.5.9"
+  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.5.9.tgz#8211586916eec380a361a0585c16cedd97da79df"
+  integrity sha512-jAnGWs2creCkmeiMePCykprerT13jnBTyF18YdDr0pixxJDCly/5f+kW8LxAD5mRGzPJQeU1hyICSsOyIrI3KA==
 
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
@@ -789,7 +789,7 @@ axios@^1.3.3, axios@^1.6.0:
 
 "baileys@git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git":
   version "6.7.6"
-  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#22c4391e0924e5fb675c04736a2e7992e4e1203f"
+  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#fefd48b845ca4bed820364a90497c1b0fac2c7ec"
   dependencies:
     "@adiwajshing/keyed-db" "^0.2.4"
     "@hapi/boom" "^9.1.3"
@@ -800,6 +800,7 @@ axios@^1.3.3, axios@^1.6.0:
     futoin-hkdf "^1.5.1"
     libphonenumber-js "^1.10.20"
     libsignal "github:WhiskeySockets/libsignal-node"
+    lodash "^4.17.21"
     music-metadata "^7.12.3"
     node-cache "^5.1.2"
     pino "^7.0.0"
