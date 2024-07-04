@@ -78,4 +78,5 @@ module.exports = {
   LIST_TYPE: (process.env.LIST_TYPE || 'poll').trim(),
   BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
   GEMINI_API_KEY: (process.env.GEMINI_API_KEY || '').trim(),
+  ADMINS: process.env.GROUP_ADMINS || '',
 }
