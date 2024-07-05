@@ -3087,9 +3087,9 @@ peek-readable@^4.1.0:
   integrity sha512-ZI3LnwUv5nOGbQzD9c2iDG6toheuXSZP5esSHBjopsXH4dg19soufvpUGA3uohi5anFtGb2lhAVdHzH6R/Evvg==
 
 peek-readable@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/peek-readable/-/peek-readable-5.1.0.tgz#f03a088804b04a3add75ce47a1f51eccc01f92c1"
-  integrity sha512-Tq2I+yoz6Xq3S09E2PyjzOy/oYuNg5v7wyjmrw7OQYSKc7QnDs63q4RXFXraMoI6LZyiEOJ/wDEYzGDPhWwNPA==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/peek-readable/-/peek-readable-5.1.1.tgz#7dbeafa1ce271a3eba3fba808883bdb03769b822"
+  integrity sha512-4hEOSH7KeEaZpMDF/xfm1W9fS5rT7Ett3BkXWHqAEzRLLwLaHkwOL+GvvpIEh9UrvX9BDhzfkvteslgraoH69w==
 
 pg-cloudflare@^1.1.1:
   version "1.1.1"
