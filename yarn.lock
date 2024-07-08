@@ -483,16 +483,16 @@
     defer-to-connect "^2.0.0"
 
 "@thi.ng/bitstream@^2.2.12":
-  version "2.2.62"
-  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.62.tgz#35007c067a4de432cb0526f9f79cbb8d2a15c080"
-  integrity sha512-JT755FJ4IpSS02DczXlp64hnVq4WjQVaJY75UdiXT4HZ6z86c3FQK9h27/lWlt16k9uSprXO4Ej8y1NJo1Xviw==
+  version "2.2.63"
+  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.63.tgz#cb34c717240b952c9f8f382e03461af8db0c62e1"
+  integrity sha512-nUXdpOcV34jRpORd5JdzZnaHfb6wEtMRjxEaF9GTrL+HTwxYbJOePlPAmL7zVOiLKD9qh02g0d5z0gnqNoyd+w==
   dependencies:
-    "@thi.ng/errors" "^2.5.9"
+    "@thi.ng/errors" "^2.5.10"
 
-"@thi.ng/errors@^2.5.9":
-  version "2.5.9"
-  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.5.9.tgz#8211586916eec380a361a0585c16cedd97da79df"
-  integrity sha512-jAnGWs2creCkmeiMePCykprerT13jnBTyF18YdDr0pixxJDCly/5f+kW8LxAD5mRGzPJQeU1hyICSsOyIrI3KA==
+"@thi.ng/errors@^2.5.10":
+  version "2.5.10"
+  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.5.10.tgz#046721f0bc92f36aee3885d239c515558449cb94"
+  integrity sha512-FNowJn6iF7yqOCatnRZtjJe+eUIbKpOTTRgGZ7kyrWGWEpS2iNtqi+kFtIHDRFuCG+X+4K4pegQvYAFrNIh/1Q==
 
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
@@ -548,7 +548,7 @@
   resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.34.tgz#10964ba0dee6ac4cd462e2795b6bebd407303433"
   integrity sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==
 
-"@types/node@*", "@types/node@>=13.7.0":
+"@types/node@*":
   version "20.14.9"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
   integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
@@ -559,6 +559,13 @@
   version "16.9.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.1.tgz#0611b37db4246c937feef529ddcc018cf8e35708"
   integrity sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==
+
+"@types/node@>=13.7.0":
+  version "20.14.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.10.tgz#a1a218290f1b6428682e3af044785e5874db469a"
+  integrity sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/node@^10.1.0":
   version "10.17.60"
@@ -827,7 +834,7 @@ b4a@^1.6.4:
 
 "baileys@git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git":
   version "6.7.6"
-  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#fefd48b845ca4bed820364a90497c1b0fac2c7ec"
+  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#13ff205f17e5408012b588f5784ae8bd5c8e44c9"
   dependencies:
     "@adiwajshing/keyed-db" "^0.2.4"
     "@hapi/boom" "^9.1.3"

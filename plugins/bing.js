@@ -51,7 +51,23 @@ bot(
       return await message.send(
         '*Example :* dale Create a 3D illusion for a WhatsApp profile picture where a boy in a white shirt sits casually on a royal Sofa. Wearing White sneakers,a black T-shirt, and sunglasses, he looks ahead. The background features “Arjun ” in big and capital Yellow fonts on the black wall.'
       )
+    await message.send(
+      {
+        text: '⏳',
+        key: message.message.key,
+      },
+      {},
+      'react'
+    )
     const res = await dall3(match)
+    await message.send(
+      {
+        text: '✅',
+        key: message.message.key,
+      },
+      {},
+      'react'
+    )
     return await message.sendFromUrl(res.data)
   }
 )
