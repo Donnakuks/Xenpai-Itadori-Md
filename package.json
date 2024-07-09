@@ -1,11 +1,12 @@
 {
   "name": "levanter",
-  "version": "5.5.7",
+  "version": "5.5.8",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start . --attach --name levanter",
-    "stop": "pm2 stop levanter"
+    "stop": "pm2 stop levanter",
+    "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp"
   },
   "author": "",
   "license": "ISC",
@@ -33,11 +34,11 @@
     "pdfkit": "^0.13.0",
     "pg": "^8.7.3",
     "pino-pretty": "^9.1.1",
-    "pm2": "^5.2.0",
+    "pm2": "^5.4.2",
     "qrcode-reader": "^1.0.4",
     "qrcode-terminal": "^0.12.0",
     "sequelize": "^6.21.4",
-    "sharp": "^0.32.6",
+    "sharp": "^0.33.4",
     "simple-git": "^3.16.1",
     "sqlite3": "^5.0.11",
     "translate-google-api": "^1.0.4",
