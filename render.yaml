@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: levanter
+    runtime: docker
+    branch: master
+    repo: 'https://github.com/lyfe00011/whatsapp-bot-md.git'
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: SUDO
+        sync: false
+      - key: PREFIX
+        sync: false
+      - key: STICKER_PACKNAME
+        value: ',LyFE'
+      - key: RMBG_KEY
+        value: 'null'
+      - key: WARN_LIMIT
+        value: '3'
+      - key: LIST_TYPE
+        value: 'text'
+      - key: BING_COOKIE
+        value: 'null'
+      - key: GEMINI_API_KEY
+        value: 'null'
+      - key: RENDER_NAME
+        sync: false
+      - key: RENDER_API_KEY
+        sync: false
+      - key: ANTI_DELETE
+        value: 'off'
+      - key: AUTO_STATUS_VIEW
+        value: 'false'
+      - key: SEND_READ
+        value: 'false'
+      - key: SESSION_ID
+        sync: false
+      - key: PORT
+        value: '3000'
+      - key: DATABASE_URL
+        sync: false

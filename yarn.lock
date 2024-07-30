@@ -603,16 +603,16 @@
     defer-to-connect "^2.0.0"
 
 "@thi.ng/bitstream@^2.2.12":
-  version "2.2.63"
-  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.63.tgz#cb34c717240b952c9f8f382e03461af8db0c62e1"
-  integrity sha512-nUXdpOcV34jRpORd5JdzZnaHfb6wEtMRjxEaF9GTrL+HTwxYbJOePlPAmL7zVOiLKD9qh02g0d5z0gnqNoyd+w==
+  version "2.2.66"
+  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.66.tgz#bc255d502095702740410a28cccb6ae7c1a3e6c6"
+  integrity sha512-mErQyNseLN6DMeHVj7PEgYGvkVtEzF8Okjgy8UhMqQKK2qfkM419CbNfCOIL+Nevvy2nDVy8zcWNB9F/x+sKhA==
   dependencies:
-    "@thi.ng/errors" "^2.5.10"
+    "@thi.ng/errors" "^2.5.13"
 
-"@thi.ng/errors@^2.5.10":
-  version "2.5.10"
-  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.5.10.tgz#046721f0bc92f36aee3885d239c515558449cb94"
-  integrity sha512-FNowJn6iF7yqOCatnRZtjJe+eUIbKpOTTRgGZ7kyrWGWEpS2iNtqi+kFtIHDRFuCG+X+4K4pegQvYAFrNIh/1Q==
+"@thi.ng/errors@^2.5.13":
+  version "2.5.13"
+  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.5.13.tgz#9afa3de2f4e902fff23a3118d15ce65c000bf33a"
+  integrity sha512-wutJa2in1sTBSrYqW15Y+GxOeHP2oHUWkNww1e3eoNK05k7EaIf9cAaOU1SKiRlimtVXqIsWqeHpz8lQPePU8Q==
 
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
@@ -681,11 +681,11 @@
   integrity sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==
 
 "@types/node@>=13.7.0":
-  version "20.14.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.10.tgz#a1a218290f1b6428682e3af044785e5874db469a"
-  integrity sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.0.0.tgz#04862a2a71e62264426083abe1e27e87cac05a30"
+  integrity sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==
   dependencies:
-    undici-types "~5.26.4"
+    undici-types "~6.11.1"
 
 "@types/node@^10.1.0":
   version "10.17.60"
@@ -949,7 +949,7 @@ axios@^1.3.3, axios@^1.6.0:
 
 "baileys@git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git":
   version "6.7.6"
-  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#4b71eb0bd4e7d7acb0049c4b68c17776a16309d6"
+  resolved "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git#e30f1c0a8085aa16c3aea17cc49911e1810b9e88"
   dependencies:
     "@adiwajshing/keyed-db" "^0.2.4"
     "@hapi/boom" "^9.1.3"
@@ -2558,9 +2558,9 @@ lazy@~1.0.11:
   integrity sha512-Y+CjUfLmIpoUCCRl0ub4smrYtGGr5AOa2AKOaWelGHOGz33X/Y/KizefGqbkwfz44+cnq/+9habclf8vOmu2LA==
 
 libphonenumber-js@^1.10.20:
-  version "1.11.4"
-  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.11.4.tgz#e63fe553f45661b30bb10bb8c82c9cf2b22ec32a"
-  integrity sha512-F/R50HQuWWYcmU/esP5jrH5LiWYaN7DpN0a/99U8+mnGGtnx8kmRE+649dQh3v+CowXXZc8vpkf5AmYkO0AQ7Q==
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.11.5.tgz#50a441da5ff9ed9a322d796a14f1e9cbc0fdabdf"
+  integrity sha512-TwHR5BZxGRODtAfz03szucAkjT5OArXr+94SMtAM2pYXIlQNVMrxvb6uSCbnaJJV6QXEyICk7+l6QPgn72WHhg==
 
 "libsignal@github:WhiskeySockets/libsignal-node":
   version "2.0.1"
@@ -4194,6 +4194,11 @@ undici-types@~5.26.4:
   version "5.26.5"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
+
+undici-types@~6.11.1:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.11.1.tgz#432ea6e8efd54a48569705a699e62d8f4981b197"
+  integrity sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==
 
 undici@^5.19.1:
   version "5.28.4"

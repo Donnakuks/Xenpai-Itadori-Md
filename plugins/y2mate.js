@@ -83,7 +83,7 @@ bot(
     const { buffer } = await getBuffer(result)
     if (!buffer) return await message.send(result, { quoted: message.data })
     return await message.send(
-      await addAudioMetaData(buffer, title, '', '', thumbnail),
+      await addAudioMetaData(buffer, title, '', '', thumbnail.url),
       { quoted: message.data, mimetype: 'audio/mpeg' },
       'audio'
     )

@@ -31,7 +31,7 @@ A simple WhatsApp User bot.
    - Get the Koyeb API key. [Let's Go](https://app.koyeb.com/account/api).
 
 3. **Deploy:**
-   - [DEPLOY](https://qr-hazel-alpha.vercel.app/koyeb) now.
+   - [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://qr-hazel-alpha.vercel.app/koyeb).
    - Enter [Environment Variables](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables). [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables).
    - Enter a name and click "Create Service."
 
@@ -122,6 +122,17 @@ A simple WhatsApp User bot.
 2. Edit `config.env`.
 3. Click run.
 
+### 5. Deploy on Render
+1. **Create an Account:**
+   - Create an account on [render](https://dashboard.render.com/register). [Sign up now](https://dashboard.render.com/register).
+
+2. **Get Required Information:**
+   - Get the [DATABASE_URL](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL). You'll need this while deploying.
+   - Get the [SESSION_ID](https://qr-hazel-alpha.vercel.app/md). Open Linked Devices in WhatsApp and [SCAN](https://qr-hazel-alpha.vercel.app/md) now.
+   - Get the render API key. [Let's Go](https://dashboard.render.com/u/settings#api-keys).
+
+3. **Deploy:**
+   - [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/lyfe00011/whatsapp-bot-md).
 ### Thanks To
 
 - [Yusuf Usta](https://github.com/Quiec) for [WhatsAsena](https://github.com/yusufusta/WhatsAsena)
