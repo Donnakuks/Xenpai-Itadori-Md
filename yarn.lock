@@ -2463,10 +2463,10 @@ jimp@^0.16.1:
     "@jimp/types" "^0.16.13"
     regenerator-runtime "^0.13.3"
 
-jintr@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/jintr/-/jintr-2.0.0.tgz#bc8e78efc04743f5c67c625587ce4d1c94afad9a"
-  integrity sha512-RiVlevxttZ4eHEYB2dXKXDXluzHfRuw0DJQGsYuKCc5IvZj5/GbOakeqVX+Bar/G9kTty9xDJREcxukurkmYLA==
+jintr@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/jintr/-/jintr-2.1.1.tgz#84d555df06d26128c2a1d0e1eebd6fecdf8eb280"
+  integrity sha512-89cwX4ouogeDGOBsEVsVYsnWWvWjchmwXBB4kiBhmjOKw19FiOKhNhMhpxhTlK2ctl7DS+d/ethfmuBpzoNNgA==
   dependencies:
     acorn "^8.8.0"
 
@@ -4428,11 +4428,11 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-youtubei.js@^10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-10.2.0.tgz#0f5fbacf3e64c965d6e7378c870a7329ceca7228"
-  integrity sha512-JLKW9AHQ1qrTwBbre1aDkH8UJFmNcc4+kOSaVou5jSY7AzfFPFJK0yvX6afnLst0UVC9wfXHrLiNx93sutVErA==
+youtubei.js@^10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-10.3.0.tgz#30a942e6b92ac8039a3d830563e383fdc9fd4772"
+  integrity sha512-tLmeJCECK2xF2hZZtF2nEqirdKVNLFSDpa0LhTaXY3tngtL7doQXyy7M2CLueramDTlmCnFaW+rctHirTPFaRQ==
   dependencies:
-    jintr "^2.0.0"
+    jintr "^2.1.1"
     tslib "^2.5.0"
     undici "^5.19.1"
