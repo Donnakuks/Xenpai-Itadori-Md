@@ -7,7 +7,8 @@ const start = async () => {
   try {
     await DATABASE.authenticate({ retry: { max: 3 } })
   } catch (error) {
-    console.error('Unable to connect to the database:', error.message, process.env.DATABASE_URL)
+    const databaseUrl = process.env.DATABASE_URL
+    logger.error({ msg: 'Unable to connect to the database', error: error.message, databaseUrl })
     return stopInstance()
   }
   try {

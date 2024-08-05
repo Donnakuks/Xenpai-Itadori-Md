@@ -1,5 +1,5 @@
 const bot = require('../lib/events')
-const { addSpace, textToStylist, PREFIX, getUptime, PLUGINS, getRam } = require('../lib/')
+const { addSpace, textToStylist, PREFIX, getUptime, PLUGINS, getRam, getDate } = require('../lib/')
 const { VERSION } = require('../config')
 bot.addCommand(
   {
@@ -14,7 +14,7 @@ bot.addCommand(
       }
       return 0
     })
-    const date = new Date()
+    const date = getDate()
     let CMD_HELP = `╭────────────────╮
 						ʟᴇᴠᴀɴᴛᴇʀ
 ╰────────────────╯
@@ -85,7 +85,7 @@ bot.addCommand(
         commands[cmdType].push(isDiabled ? cmd + ' [disabled]' : cmd)
       }
     })
-    const date = new Date()
+    const date = getDate()
     let msg = `\`\`\`╭═══ LEVANTER ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
