@@ -31,7 +31,7 @@ A simple WhatsApp User bot.
    - Get the Koyeb API key. [Let's Go](https://app.koyeb.com/account/api).
 
 3. **Deploy:**
-   - [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://qr-hazel-alpha.vercel.app/koyeb).
+   - [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://qr-hazel-alpha.vercel.app/koyeb)
    - Enter [Environment Variables](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables). [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables).
    - Enter a name and click "Create Service."
 
@@ -132,7 +132,7 @@ A simple WhatsApp User bot.
    - Get the render API key. [Let's Go](https://dashboard.render.com/u/settings#api-keys).
 
 3. **Deploy:**
-   - [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/lyfe00011/whatsapp-bot-md).
+   - [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://qr-hazel-alpha.vercel.app/render)
 ### Thanks To
 
 - [Yusuf Usta](https://github.com/Quiec) for [WhatsAsena](https://github.com/yusufusta/WhatsAsena)
