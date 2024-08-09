@@ -46,6 +46,7 @@ bot(
     onlyGroup: true,
   },
   async (message, match) => {
+    await message.send('> dont add those not in contacts, chances of a ban is high.')
     const participants = await message.groupMetadata(message.jid)
     const isImAdmin = await isAdmin(participants, message.client.user.jid)
     if (!isImAdmin) return await message.send(`_I'm not admin._`)
@@ -67,7 +68,6 @@ bot(
     // 		'button'
     // 	)
     // }
-    await message.send('> dont add those not in contacts, chances of a ban is high.')
     await sleep(3000)
     match = jidToNum(match)
     const res = await message.Add(match)
