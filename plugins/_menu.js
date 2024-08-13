@@ -1,5 +1,14 @@
 const bot = require('../lib/events')
-const { addSpace, textToStylist, PREFIX, getUptime, PLUGINS, getRam, getDate } = require('../lib/')
+const {
+  addSpace,
+  textToStylist,
+  PREFIX,
+  getUptime,
+  PLUGINS,
+  getRam,
+  getDate,
+  PLATFORM,
+} = require('../lib/')
 const { VERSION } = require('../config')
 bot.addCommand(
   {
@@ -97,6 +106,7 @@ bot.addCommand(
 ┃❃│ Plugins : ${PLUGINS.count}
 ┃❃│ Ram : ${getRam()}
 ┃❃│ Uptime : ${getUptime('t')}
+┃❃│ Platform : ${PLATFORM}
 ┃❃╰───────────────
 ╰═════════════════⊷\`\`\`\n`
 
