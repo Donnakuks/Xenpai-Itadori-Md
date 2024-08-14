@@ -32,7 +32,7 @@ bot(
       if (!filters) return await message.send(`_Not set any filter_\n*Example filter 'hi' 'hello'*`)
       let msg = ''
       filters.map(({ pattern }) => {
-        msg += `=> ${pattern} \n`
+        msg += `- ${pattern}\n`
       })
       return await message.send(msg.trim())
     } else {
