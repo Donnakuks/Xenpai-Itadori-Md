@@ -99,7 +99,7 @@ bot.addCommand(
 <p align="center">
 src="https://telegra.ph/file/cee44afdef7cc2fc45d85.jpg"/>
 </p>	   
-let msg = `\`\`\`╭═══🀄XENPAI-ITADORI-MD🀄═══⊷
+let msg = `\`\`\`╭═══ 🀄XENPAI-ITADORI-MD🀄 ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
