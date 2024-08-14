@@ -95,7 +95,11 @@ bot.addCommand(
       }
     })
     const date = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+
+<p align="center">
+src="https://telegra.ph/file/cee44afdef7cc2fc45d85.jpg"/>
+</p>	   
+let msg = `\`\`\`╭═══🀄XENPAI-ITADORI-MD🀄═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
