@@ -1,10 +1,14 @@
-# WhatsApp MD User Bot
+<h1 align="center"> ダーク🀄🕷 </h1>
 
-A simple WhatsApp User bot.
+<p align="center">
+<img
+src="https://telegra.ph/file/668659900721c3ef948c5.jpg"/>
+</p>
+A dope WhatsApp User bot 🌻〽️🀄
 
 ## Setup
 
-### 1. Deploy on Heroku
+### 1. Deploy on Heroku〽️
 
 1. **Scan QR Code:**
    - Click [SCAN](https://qr-hazel-alpha.vercel.app/md) and scan the QR code through the "WhatsApp Linked Devices" option in your WhatsApp app.
@@ -15,27 +19,27 @@ A simple WhatsApp User bot.
    - If you don't have a GitHub account, [sign up](https://github.com/join) now.
 
 3. **Fork Repository:**
-   - [FORK](https://github.com/lyfe00011/whatsapp-bot-md/fork) this repository.
+   - [FORK](https://github.com/Donnakuks/Xenpai-Itadori-Md/fork) this repository.
 
 4. **Deploy:**
    - Now [DEPLOY](https://qr-hazel-alpha.vercel.app/heroku).
 
-### 2. Deploy on Koyeb
+### 2. Deploy on Koyeb💫
 
 1. **Create an Account:**
    - Create an account on [Koyeb](https://app.koyeb.com/auth/signup). [Sign up now](https://app.koyeb.com/auth/signup).
 
 2. **Get Required Information:**
-   - Get the [DATABASE_URL](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL). You'll need this while deploying.
+   - Get the [DATABASE_URL](https://github.com/Donnakuks/Xenpai-Itadori-Md/wiki/DATABASE_URL). You'll need this while deploying.
    - Get the [SESSION_ID](https://qr-hazel-alpha.vercel.app/md). Open Linked Devices in WhatsApp and [SCAN](https://qr-hazel-alpha.vercel.app/md) now.
    - Get the Koyeb API key. [Let's Go](https://app.koyeb.com/account/api).
 
 3. **Deploy:**
    - [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://qr-hazel-alpha.vercel.app/koyeb)
-   - Enter [Environment Variables](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables). [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables).
+   - Enter [Environment Variables](https://github.com/Donnakuks/Xenpai-Itadori-Md/wiki/Environment_Variables). [Read More](https://github.com/Donnakuks/Xenpai-Itadori-Md/wiki/Environment_Variables).
    - Enter a name and click "Create Service."
 
-### 3. Deploy on VPS or PC (Example here as in Ubuntu)
+### 3. Deploy on VPS or PC (Example here as in Ubuntu)🌻
 
 #### Install with Script
 
@@ -71,7 +75,7 @@ A simple WhatsApp User bot.
 
 5. **Clone Repository and Install Packages:**
    ```sh
-   git clone https://github.com/lyfe00011/whatsapp-bot-md botName
+   git clone https://github.com/Donnakuks/Xenpai-Itadori-Md
    cd botName
    yarn install
    ```
@@ -80,7 +84,7 @@ A simple WhatsApp User bot.
    ```sh
    echo "SESSION_ID = Session_Id_you_Got_After_Scan_Dont_Add_This_Line_If_You_Can_Scan_From_Terminal_Itself
    PREFIX = .
-   STICKER_PACKNAME = LyFE
+   STICKER_PACKNAME = ITADORI
    ALWAYS_ONLINE = false
    RMBG_KEY = null
    LANGUAG = en
@@ -99,7 +103,7 @@ A simple WhatsApp User bot.
    PERSONAL_MESSAGE = null" > config.env
    ```
 
-   - [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables)
+   - [Read More](https://github.com/Donnakuks/Xenpai-Itadori-Md/wiki/Environment_Variables)
 
 7. **Edit `config.env` Using Nano (if needed):**
    - To save, press `Ctrl + O`, then press `Enter`, and to exit, press `Ctrl + X`.
@@ -114,20 +118,12 @@ A simple WhatsApp User bot.
      pm2 stop botName
      ```
 
-### 4. Deploy on Replit
-
-[![Run on Replit](https://replit.com/badge/github/your-repo-owner/your-repo-name)](https://replit.com/@Nightbot2O/whatsapp-bot-md)
-
-1. Fork the repository.
-2. Edit `config.env`.
-3. Click run.
-
-### 5. Deploy on Render
+### 4. Deploy on Render🪐🌀
 1. **Create an Account:**
    - Create an account on [render](https://dashboard.render.com/register). [Sign up now](https://dashboard.render.com/register).
 
 2. **Get Required Information:**
-   - Get the [DATABASE_URL](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL). You'll need this while deploying.
+   - Get the [DATABASE_URL](https://github.com/Donnakuks/Xenpai-Itadori-Md/wiki/DATABASE_URL). You'll need this while deploying.
    - Get the [SESSION_ID](https://qr-hazel-alpha.vercel.app/md). Open Linked Devices in WhatsApp and [SCAN](https://qr-hazel-alpha.vercel.app/md) now.
    - Get the render API key. [Let's Go](https://dashboard.render.com/u/settings#api-keys).
 
