@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name levanter",
-    "stop": "pm2 stop levanter",
+    "start": "pm2 start . --attach --name XENPAI-ITADORI-MD",
+    "stop": "pm2 stop XENPAI-ITADORI-MD",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp"
   },
   "author": "",
