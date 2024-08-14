@@ -6,8 +6,15 @@ src="https://telegra.ph/file/668659900721c3ef948c5.jpg"/>
 </p>
 <p align="center">
 <a href="https://github.com/Donnakuks"><img title="Author" src="https://img.shields.io/badge/Xenpai-Itadori-Md?style=for-the-badge&logo=whatsapp"></a>
-<p/>
-A dope WhatsApp User bot 🌻〽️🀄
+<p align="center">
+   <img title="Followers" src="https://img.shields.io/github/followers/Donnakuks?label=Followers&style=badge"></a>
+<a href="https://github.com/Donnakuks/Xenpai-Itadori-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Samue-l1/Dagger-Bot?&style=badge"></a>
+<a href="https://github.com/Donnakuks/Xenpai-Itadori-Md/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Donnakuks/Xenpai-Itadori-Md?style=badge"></a>
+<a href="https://github.com/Donnakuks/Xenpai-Itadori-Md /watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Donnakuks/Xenpai-Itadori-Md?label=Watching&style=badge"></a>
+</p>
+</a>
+</p>  
+<p align="center">A dope WhatsApp User bot 🌻〽️🀄 </h1>
 
 ## Setup
 
