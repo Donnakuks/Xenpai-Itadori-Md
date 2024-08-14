@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "🀄🌻"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -80,7 +80,7 @@
     "ANTIWORDS_MSG": {
       "description": "Message send when antiword.",
       "required": false,
-      "value": "_Antiword Detected &mention kicked_"
+      "value": "_Antiword Detected &mention Buttkicked_"
     },
     "ANTIWORDS": {
       "description": "words that not allowed in chats.",
