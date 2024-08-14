@@ -4,6 +4,9 @@
 <img
 src="https://telegra.ph/file/668659900721c3ef948c5.jpg"/>
 </p>
+<p align="center">
+<a href="https://github.com/Donnakuks"><img title="Author" src="https://img.shields.io/badge/Xenpai-Itadori-Md?style=for-the-badge&logo=whatsapp"></a>
+<p/>
 A dope WhatsApp User bot 🌻〽️🀄
 
 ## Setup
@@ -131,5 +134,21 @@ A dope WhatsApp User bot 🌻〽️🀄
    - [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://qr-hazel-alpha.vercel.app/render)
 ### Thanks To
 
+* [Telegram] (t.me/Deepdarkend_bot)
+* [Whatsapp Direct Message](https://Wa.me/254737308001?text=Boss%20ダーク🀄🕷%20my%20name%20is___%20and%20I've%20saved%20your%20contact%20you%20should%20please%20save%20mine%20too%20%20✅)
+—————————————————————
+┈╭━━━━━━━━━━━╮┈ ┈┃╭━━━╮┊╭━━━╮┃┈ ╭┫┃┈▇┈┃┊┃┈▇┈┃┣╮ ┃┃╰━━━╯┊╰━━━╯┃┃ ╰┫╭━╮╰━━━╯╭━╮┣╯ ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈ ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈ ┈╰━━━━━━━━━━━╯┈
+*`Y'ALL NIGGA`*
+.……..… /´¯/)………....(\¯\.............
+……….../….//……….. …\\….\. ........
+………../….//………… ….\\….\. ......
+…../´¯/…./´¯\………../¯ \….\¯`\.....
+.././.../…./…./.|_……_|.\….\….\…\.\
+(.(….(….(…./.)..)..(..(.\….)….)….).)
+.\…………….\/../…..\....\/…………../
+..\…………….. /……..\…………….../
+…\…………... (...…….)……………..
+—————————————————————
+      ダーク🀄🌻
 - [Yusuf Usta](https://github.com/Quiec) for [WhatsAsena](https://github.com/yusufusta/WhatsAsena)
 - [@adiwajshing](https://github.com/adiwajshing) for [Baileys](https://github.com/adiwajshing/Baileys)
