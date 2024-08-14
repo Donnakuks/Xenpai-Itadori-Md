@@ -1,5 +1,5 @@
-FROM quay.io/lyfe00011/md:beta
-RUN git clone https://github.com/lyfe00011/whatsapp-bot-md.git /root/LyFE/
+FROM quay.io/Donnakuks/md:beta
+RUN git clone https://github.com/Donnakuks/Xenpai-Itadori-Md.git /root/XENPAI/
 WORKDIR /root/LyFE/
 RUN yarn install
 CMD ["npm", "start"]
