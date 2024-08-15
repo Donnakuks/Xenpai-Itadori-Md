@@ -40,7 +40,7 @@ src="https://telegra.ph/file/668659900721c3ef948c5.jpg"/>
    - Create an account on [Koyeb](https://app.koyeb.com/auth/signup). [Sign up now](https://app.koyeb.com/auth/signup).
 
 2. **Get Required Information:**
-   - Get the [DATABASE_URL](https://github.com/Donnakuks/Xenpai-Itadori-Md/wiki/DATABASE_URL). You'll need this while deploying.
+   - Get the [DATABASE_URL](https://github.com/donnakuks/Xenpai-Itadori-Md/wiki/DATABASE_URL). You'll need this while deploying.
    - Get the [SESSION_ID](https://qr-hazel-alpha.vercel.app/md). Open Linked Devices in WhatsApp and [SCAN](https://qr-hazel-alpha.vercel.app/md) now.
    - Get the Koyeb API key. [Let's Go](https://app.koyeb.com/account/api).
 
@@ -85,7 +85,7 @@ src="https://telegra.ph/file/668659900721c3ef948c5.jpg"/>
 
 5. **Clone Repository and Install Packages:**
    ```sh
-   git clone https://github.com/Donnakuks/Xenpai-Itadori-Md
+   git clone https://github.com/donnakuks/Xenpai-Itadori-Md
    cd botName
    yarn install
    ```
